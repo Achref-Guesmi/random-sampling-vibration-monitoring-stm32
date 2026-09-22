@@ -1,0 +1,54 @@
+# ========================
+# STM32CubeIDE / Eclipse
+# ========================
+Debug/
+Release/
+*.o
+*.d
+*.su
+*.cyclo
+*.lst
+*.map
+*.elf
+*.bin
+*.hex
+*.list
+*.srec
+*.launch
+.metadata/
+RemoteSystemsTempFiles/
+
+# ========================
+# Build artifacts
+# ========================
+**/Debug/
+**/Release/
+
+# ========================
+# OS files
+# ========================
+.DS_Store
+Thumbs.db
+*~
+*.swp
+
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# ========================
+# IDE
+# ========================
+.idea/
+.vscode/
+*.code-workspace
